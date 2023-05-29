@@ -1,0 +1,38 @@
+1) 1-D graph
+row:- age
+filter:-gender
+
+2) 2-D graph
+r:-latitude
+c:-longitude
+color:-age
+details:native-country
+
+3)3-D graph
+r:-age
+c:-hours
+shape:-gender
+color:-income
+details:-education
+
+3)temporal data
+r:-capital loss,fnlwgt---------choose line(side bar)
+c:-education
+
+4)multidimentional
+r:- capital-loss
+c:-capital-gain
+details:-gender
+color:-income
+
+5)tree
+size:- age
+color:-hours
+label:-occupation
+
+6)network:-
+size:-capital-loss
+label:-income
+       education
+color:-sum
+

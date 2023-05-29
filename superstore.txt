@@ -1,0 +1,49 @@
+superstore
+
+1) 1 d graph
+row :-sales
+column:-year
+filters:-orderdate ---show filter
+
+
+
+2)2d graph
+row:-sales
+column:-year,category,subcategory
+color:- profit
+filter:- year ,sub-category
+orange :- loss  blue:- high
+
+3)temporal
+r:-sales,category
+c:-order date-----r----continus
+temporal:- chage with time stocks,depends on time
+analytics:-
+
+4)tree
+r:-sales
+c:-sub category
+show me:- tree map
+orange:-loss
+dark blue:profit
+
+5)multi:-
+r:-sales
+c:-profit
+color:-category,region
+
+6)map type data
+r:-latitude
+c:-longitude
+color:-profit
+details:-country
+         state
+
+7)c:-profit
+r:- country,state
+color:profit
+filter:region
+
+
+
+

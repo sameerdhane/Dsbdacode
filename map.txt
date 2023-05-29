@@ -1,0 +1,28 @@
+traning---new---package-----name:-test1
+2)test1:-new-----class:-WCDriver,WCReducer,WCMapper------copy code
+3)test1:---------export-----jar file-----A.jar----next---mainclass:-browse---finish
+
+change access log name to test.txt
+
+
+
+cmd commands:
+hadoop fs -mkdir /test1
+hadoop fs -mkdir /test2
+hadoop dfs -ls/
+
+
+cd Desktop/
+ls
+hdfs dfs -put test.txt /test1
+hdfs dfs -ls /test1
+hadoop jar A.jar /test1/test.txt /test2/output.txt
+
+
+brower
+search:-
+quickstart:cloudera:50070/explorer.html#/testoutput.txt
+
+go:-/test2/output.txt
+output----part0000----download----see download file
+
